@@ -5,6 +5,6 @@ module.exports.run = async (bot, message, args) => {
 };
 
 module.exports.config = {
-	name: "hello",
-	aliases: ["hi"],
+	name: "hello", //command
+	aliases: ["hi"], //command aliases
 };

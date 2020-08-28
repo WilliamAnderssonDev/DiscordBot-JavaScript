@@ -22,7 +22,7 @@ module.exports.run = async (bot, message, args) => {
 				message.channel
 					.send(`:white_check_mark: Cleared: **${args[0]}** messages!`)
 					.then((msg) => {
-						msg.delete({ timeout: timeToDel });
+						msg.delete({ timeout: timeToDel });						
 					})
 					.catch();
 			});
